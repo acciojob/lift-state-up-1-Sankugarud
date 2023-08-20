@@ -12,19 +12,19 @@ const App = () => {
   return (
     <div>
         <div className="parent">
-          <h2>Parent Component</h2>
+          <h1>Parent Component</h1>
           <div className="child">
             <h3>Child Component</h3> 
             <button onClick={showmodal}>Show Modal</button>
 
-            {
+           
+          </div>
+          {
             modal && (<div className="modal">
             <h3>Modal content</h3>
             <p>This is modal content</p>
             </div>)
           }
-          </div>
-          
           
 
         </div>
