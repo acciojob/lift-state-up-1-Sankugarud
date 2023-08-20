@@ -19,13 +19,16 @@ const App = () => {
 
            
           </div>
+          <div className="modal">
           {
-            modal && (<div className="modal">
-            <h3>Modal content</h3>
-            <p>This is modal content</p>
-            </div>)
+            modal && (
+              <div>
+              <h3>Modal content</h3>
+              <p>This is modal content</p>
+            </div>
+            )
           }
-          
+          </div>
 
         </div>
     </div>
